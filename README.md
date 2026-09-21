@@ -49,7 +49,7 @@
      Kubectl apply -f <pod-definition.yaml>
      ```
 10. Test access permission
-    - Login to container
+    - Login to the container
      ```
      kubectl exec -it <pod name> -n <namespace> -- /bin/sh
      ```
