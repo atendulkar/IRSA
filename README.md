@@ -48,3 +48,13 @@
    - ```
      Kubectl apply -f <pod-definition.yaml>
      ```
+10. Test access permission
+    - Login to container
+     ```
+     kubectl exec -it <pod name> -n <namespace> -- /bin/sh
+     ```
+    - List bucket
+     ```
+     aws s3 list <bucket name>
+     ```
+     
