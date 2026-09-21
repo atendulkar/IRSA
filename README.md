@@ -46,7 +46,7 @@
      ```
 9. Create your app
    - ```
-     Kubectl apply -f <pod-definition.yaml>
+     kubectl apply -f <pod-definition.yaml>
      ```
 10. Test access permission
     - Login to the container
