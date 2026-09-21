@@ -1,5 +1,6 @@
 # IRSA
 # Kubernetes IAM Role For Service Accounts
 ## Flow Diagram
-<img width="694" height="684" alt="IRSA drawio" src="https://github.com/user-attachments/assets/42db155d-c30f-465c-858c-1cbc06429ece" />
+<img width="714" height="684" alt="IRSA4 drawio" src="https://github.com/user-attachments/assets/02476366-83cf-4520-99f1-01bb0a6db06e" />
+
 
