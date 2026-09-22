@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: irsa-deploy
+spec:
+  selector:
+    matchLabels:
+      app: irsa-app
+  template:
+    metadata:
+      name: irsa-pod
+    spec:
+      serviceAccountName: irsa-sa
+      containers:
+      - name: irsa-app
+        image: amazon/aws-cli:latest
+        command:
+        - "sleep"
+        - "600"  # sleep for 10m
