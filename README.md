@@ -1,7 +1,8 @@
 # IRSA
 # Kubernetes IAM Role For Service Accounts
 ## Flow Diagram
-<img width="714" height="684" alt="IRSA5 drawio" src="https://github.com/user-attachments/assets/5be27655-9bac-4783-a2b2-264a6293782e" />
+<img width="864" height="834" alt="IRSA6 drawio" src="https://github.com/user-attachments/assets/0af30289-2892-41a2-b2bd-8c41e0dbc191" />
+
 
 ## Steps
 1. AWS Reference: [IAM roles for service accounts - Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
